@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#017373</color>-->
+<!--    <color name="colorPrimaryDark">#014747</color>-->
+<!--    <color name="colorAccent">#009688</color>-->
+<!--    <color name="textColor">#505050</color>-->
+
+<color name="colorPrimary">#0C6170</color>
+<color name="colorPrimaryDark">#094A55</color>
+<color name="colorAccent">#37BEB0</color>
+<color name="colorAccentDark">#288A80</color>
+<color name="pageBackground">#F5F5F5</color>
+<color name="textColor">#3C3C3C</color>
+<color name="recyclerBackground">#F9F9F9</color>
+<color name="backGroundGrey">#C1C1C1</color>
+<color name="babyBlue">#EFEFEF</color>
+</resources>

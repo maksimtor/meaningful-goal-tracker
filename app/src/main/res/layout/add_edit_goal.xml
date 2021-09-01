@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/add_edit_goal_for_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Title:"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/add_edit_goal_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:id="@+id/add_edit_goal_for_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/add_edit_goal_description"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/add_edit_goal_for_goal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Value:"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+        <Spinner
+            android:id="@+id/add_edit_goal_value"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/add_edit_goal_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/babyBlue"
+            android:text="Add" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

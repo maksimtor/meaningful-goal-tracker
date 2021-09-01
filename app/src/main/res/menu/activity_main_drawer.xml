@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_value_explorer"
+            android:icon="@drawable/ic_baseline_eco_24"
+            android:title="@string/menu_value_explorer" />
+        <item
+            android:id="@+id/nav_goal_keeper"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="@string/menu_goal_keeper" />
+        <item
+            android:id="@+id/nav_scheduler"
+            android:icon="@drawable/ic_baseline_schedule_24"
+            android:title="@string/menu_scheduler" />
+        <item
+            android:id="@+id/nav_todo_list"
+            android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+            android:title="@string/menu_todo_list" />
+        <item
+            android:id="@+id/nav_tracker"
+            android:icon="@drawable/ic_baseline_track_changes_24"
+            android:title="@string/menu_tracker" />
+        <item
+            android:id="@+id/nav_general_settings"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/menu_general_settings" />
+        <item
+            android:id="@+id/nav_general_guide"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="@string/menu_general_guide" />
+    </group>
+</menu>

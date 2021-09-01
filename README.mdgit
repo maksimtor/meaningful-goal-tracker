@@ -1,0 +1,1 @@
+"# meaningful-goal-tracker"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/maksimtor/meaningful-goal-tracker.gitgit push -u origin main

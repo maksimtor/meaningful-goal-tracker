@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078822327347",
+    "firebase_url": "https://meaningfulgoaltracker.firebaseio.com",
+    "project_id": "meaningfulgoaltracker",
+    "storage_bucket": "meaningfulgoaltracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078822327347:android:1cd97382f26afa2e937f46",
+        "android_client_info": {
+          "package_name": "org.maksimtoropygin.meaningfulgoaltracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078822327347-n59a2gjleov2atjsm4s99u5fr55f7b6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.maksimtoropygin.meaningfulgoaltracker",
+            "certificate_hash": "9cff71128106b2edf48c12d68c03c5fa20bf1eb5"
+          }
+        },
+        {
+          "client_id": "1078822327347-2skriq81iljok78p90eofb1n0g2nllef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv2jDkCH_louuKX7KIoRZIf9cj9ESKHRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078822327347-2skriq81iljok78p90eofb1n0g2nllef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

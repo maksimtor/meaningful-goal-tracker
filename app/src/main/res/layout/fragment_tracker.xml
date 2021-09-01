@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tracker_helper"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tracker_helper_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/tracker_helper_title" />
+
+                <TextView
+                    android:id="@+id/tracker_helper_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"
+                    android:text="@string/tracker_helper_desc" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tracker_schedule"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Schedule discipline:"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tracker_schedule_week"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last week results:"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/tracker_schedule_week_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No track records for the last week:"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="16sp" />
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/tracker_pie_week"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:id="@+id/tracker_schedule_month"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last month results:"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/tracker_schedule_month_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No track records for the last month:"
+                    android:textAlignment="center"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/tracker_pie_month"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginBottom="20dp" />
+
+                <TextView
+                    android:id="@+id/tracker_schedule_year"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Last year results:"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/tracker_schedule_year_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No track records for the last year:"
+                    android:textAlignment="center"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp" />
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/tracker_pie_year"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

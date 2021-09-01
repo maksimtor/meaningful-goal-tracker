@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_recycler_scheduler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:visibility="gone"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="160dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/rec_schedule_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:text="Title"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/schedule_delete_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/rec_schedule_done"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_done"  />
+
+                <ImageButton
+                    android:id="@+id/rec_schedule_missed"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_missed" />
+
+                <TextView
+                    android:id="@+id/rec_schedule_status"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/textColor"
+                    android:text="Title"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    />
+
+                <ImageButton
+                    android:id="@+id/rec_schedule_edit"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_edit" />
+
+                <ImageButton
+                    android:id="@+id/rec_schedule_delete"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_delete" />
+                <ImageButton
+                    android:id="@+id/rec_schedule_expand"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/expand_more" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/rec_schedule_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/textColor"
+            android:text="Title"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:id="@+id/schedule_for_expand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/rec_schedule_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Description"
+                android:textColor="@color/textColor"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/rec_schedule_goal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Goal"
+                android:textColor="@color/textColor"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/rec_schedule_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Productivity rate is unknown."
+                android:textColor="@color/textColor"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

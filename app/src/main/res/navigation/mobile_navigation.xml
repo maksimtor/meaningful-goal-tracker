@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_value_explorer">
+
+    <fragment
+        android:id="@+id/nav_value_explorer"
+        android:name="org.maksimtoropygin.meaningfulgoaltracker.ui.value_explorer.ValueExplorerFragment"
+        android:label="@string/menu_value_explorer"
+        tools:layout="@layout/fragment_value_explorer" />
+
+    <fragment
+        android:id="@+id/nav_goal_keeper"
+        android:name="org.maksimtoropygin.meaningfulgoaltracker.ui.goal_keeper.GoalKeeperFragment"
+        android:label="@string/menu_goal_keeper"
+        tools:layout="@layout/fragment_goal_keeper" />
+
+    <fragment
+        android:id="@+id/nav_scheduler"
+        android:name="org.maksimtoropygin.meaningfulgoaltracker.ui.scheduler.SchedulerFragment"
+        android:label="@string/menu_scheduler"
+        tools:layout="@layout/fragment_scheduler" />
+
+    <fragment
+        android:id="@+id/nav_todo_list"
+        android:name="org.maksimtoropygin.meaningfulgoaltracker.ui.todo_list.ToDoListFragment"
+        android:label="@string/menu_todo_list"
+        tools:layout="@layout/fragment_todo_list" />
+
+    <fragment
+        android:id="@+id/nav_tracker"
+        android:name="org.maksimtoropygin.meaningfulgoaltracker.ui.tracker.TrackerFragment"
+        android:label="@string/menu_tracker"
+        tools:layout="@layout/fragment_tracker" />
+
+    <fragment
+        android:id="@+id/nav_general_settings"
+        android:name="org.maksimtoropygin.meaningfulgoaltracker.ui.settings.SettingsFragment"
+        android:label="@string/menu_general_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_general_guide"
+        android:name="org.maksimtoropygin.meaningfulgoaltracker.ui.guide.GuideFragment"
+        android:label="@string/menu_general_guide"
+        tools:layout="@layout/fragment_guide" />
+
+</navigation>

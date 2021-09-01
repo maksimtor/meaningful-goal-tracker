@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Meaningful Goal Tracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_value_explorer">Value Explorer</string>
+    <string name="menu_goal_keeper">Goal Keeper</string>
+    <string name="menu_scheduler">Scheduler</string>
+    <string name="menu_todo_list">ToDo List</string>
+    <string name="menu_tracker">Tracker</string>
+    <string name="menu_general_settings">Profile</string>
+    <string name="menu_general_guide">Guide</string>
+
+    <string name="title_activity_login">Login Activity</string>
+    <string name="title_activity_register">Register Activity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="week_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="guide_intro">
+        This application was made in order to help people to construct their schedule, depending on what they consider the most meaningful things in their life.
+\n\nThe main pages that you need to consider are:\n
+    - Values\n
+	- Goals\n
+	- Schedule tasks\n
+	- Todo items\n\nOn each of these pages you can find a button on the right bottom corner (+). This button is for adding new items.
+Click on this button to define new value/goal/schedule task/todo item.
+\n\n1. Values\n\nOn this page you can define the values, the things that are most important for you. Things that satisfy you and give the meaning to your life.
+\n\n2. Goals\n\nOn this page you can define your goals. Every goal is based on one of the values you have in your life.
+\n\n3. Schedule\n\nHere you can create the schedule, tasks that have to be repeated every week at a particular time. Every task on this page is based on one of the goals you have.
+\n\n4. Todo\n\nSometimes there are things that can\'t be done repeatedly on particular times, but they still are based on the goals, and needs to be done in order to achieve something we consider valuable.
+\n\n5. Tracker\n\nHere you can see how many of the tasks you missed or done in different time periods (related to the schedule tasks).
+\n\nIt is recommended to first define your values, and depending on them go forward with the application. This is the example of how work with the application can be done:
+    </string>
+
+    <string name="guide_1">
+        \n1. First I have to define the value. What is the meaningful thing that I want to achieve? Let\'s say that I want to become a good person.
+    </string>
+    <string name="guide_2">
+        \n2. What kind of goal I can specify that will help me to become a good person? Let\'s say the goal will be to learn how to meditate.
+    </string>
+    <string name="guide_3">
+        \n3. What are the tasks I can put into my schedule in order to learn how to meditate? Let\'s create 2 tasks:\n\n
+            - Reading a book about meditation on weekends at 10 pm.\n
+            - Practising meditation on weekends at 10 am.
+    </string>
+    <string name="guide_4">
+        \n4. Something else came up! I need to buy a book first, in order to actually read it. Let\'s then define the todo item under the name "Buy a meditation book".
+    </string>
+    <string name="guide_5">
+        \nGreat, we just discovered that we want to become a good person, and we created a plan on how to achieve it through consistent work. Now we just need to follow the schedule and remember to complete the todo items. :)
+    </string>
+
+    <string name="value_helper_title">Value Explorer helper</string>
+    <string name="value_helper_desc">On this page you can define the values, the things that are most important for you. Things that satisfy you and give the meaning to your life.</string>
+    <string name="goal_helper_title">Goal Keeper helper</string>
+    <string name="goal_helper_desc">On this page you can define your goals. Every goal is based on one of the values you have in your life.</string>
+    <string name="schedule_helper_title">Scheduler helper</string>
+    <string name="schedule_helper_desc">Here you can create the schedule, tasks that have to be repeated every week at a particular time. Every task on this page is based on one of the goals you have.</string>
+    <string name="todo_helper_title">Todo helper</string>
+    <string name="todo_helper_desc">Sometimes there are things that can\'t be done repeatedly on particular times, but they still are based on the goals, and needs to be done in order to achieve something we consider valuable.</string>
+    <string name="tracker_helper_title">Tracker helper</string>
+    <string name="tracker_helper_desc">Here you can see how many of the tasks you missed or done in different time periods (related to the schedule tasks).</string>
+</resources>
